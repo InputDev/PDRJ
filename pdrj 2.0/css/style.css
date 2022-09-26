@@ -1,0 +1,64 @@
+.pag{
+    margin-top: 2em;
+    padding: 5em;
+    border-radius: 2em;
+    text-align: center;
+    margin-bottom:5em ;
+    color: aqua;
+    
+}
+.fundo{
+    background-color: rgb(245, 245, 220);
+    background-size: cover;
+}
+.quadro a img{
+    opacity: 0.5;
+    width: 50%;
+    max-height: 180px;
+}
+.foto{
+    width: 2em;
+}
+img{
+    width: 100%;
+}
+.link a {
+    color: aqua;
+    text-decoration: none; 
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+.link a:hover {
+    color: rgb(0, 0, 0);
+} 
+.barra{
+    background: rgb(134,134,134);
+    background: linear-gradient(180deg, rgba(134,134,134,1) 0%, rgba(255,252,252,1) 100%);
+}
+.barraf{
+    background: rgb(255,252,252);
+    background: linear-gradient(180deg, rgba(255,252,252,1) 0%, rgba(134,134,134,1) 100%);
+    color:#000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5em;
+}
+.title{
+    background-color: black;
+    color: aqua;
+    width: 7em;
+    margin: auto;
+}
+.img{
+    max-width: 350px;
+    max-height: 350px;
+}
+.contato{
+max-width: 100%;
+}
+.fotof{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
